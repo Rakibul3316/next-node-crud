@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* .header_area {
+  background-color: #333;
+} */
+
+.navbar {
+  display: flex;
+  padding: 0px 70px;
+  margin-bottom: 20px;
+  background-color: #c2e1f1;
+  justify-content: space-between;
+}
+
+a.creat {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar .navbar-brand {
+  color: #333;
+  font-size: 2rem;
+}
+
+/* .navbar-brand:hover,
+.create:hover {
+  color: #fff;
+} */
+
+.single_event {
+  padding: 20px;
+  background-color: #c8e5f1;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  transition: 0.7s all;
+}
+
+/* .single_event:hover .remove_event {
+  visibility: visible;
+  opacity: 1;
+} */
+
+.new_event_form {
+  background: #f5f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.remove_event {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.remove_event button {
+  border: none;
+  background: red;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.single_veiw_event {
+  background: #c2e1f1;
+  padding: 40px 25px;
+  border-radius: 5px;
+}
+
+.single_veiw_event h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+p.modal_body_text {
+  font-size: 35px;
+  text-align: center;
+}
